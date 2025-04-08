@@ -42,7 +42,7 @@ alumnes = []
 #Funcio per mostrar tots el alumnes
 def mostra_alumnes():
     if len(alumnes) == 0:
-        print("No hi ha alumnes")
+        print("No hi ha alumnes, es probable que no hagis llegit el fitxer primer")
         return
 
     for alumne in alumnes:
@@ -51,7 +51,7 @@ def mostra_alumnes():
 #Funcio per mostrar un alumne#
 def mostra_alumne(id:int):
     if len(alumnes) == 0:
-        print("No hi ha alumnes")
+        print("No hi ha alumnes, es probable que no hagis llegit el fitxer primer")
         return
 
     for alumne in alumnes:
@@ -70,8 +70,7 @@ Cognom: {alumne["cognom"]},
 Email: {alumne["email"]},
 Curs: {alumne["curs"]},
 Data: {alumne["data"]["dia"]}/{alumne["data"]["mes"]}/{alumne["data"]["any"]},
-Feina: {"Si" if alumne["feina"] else "No"}
-""")
+Feina: {"Si" if alumne["feina"] else "No"}""")
 
 #Funcio per afegir un alumne
 def add_alumne(nom, cognom, email, curs, dia, mes, any, feina):
@@ -88,11 +87,12 @@ def add_alumne(nom, cognom, email, curs, dia, mes, any, feina):
         },
         "feina": feina
     })
+    print("Alumne afegit")
 
 #Funcio per esborrar un alumne
 def delete_alumne(id:int):
     if len(alumnes) == 0:
-        print("No hi ha alumnes")
+        print("No hi ha alumnes, es probable que no hagis llegit el fitxer primer")
         return
 
     #Comprovem si l'alumne existeix
