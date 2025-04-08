@@ -1,6 +1,6 @@
 ### Imports ################################################## 
 import os   #per neteja la pantalla
-from json import load
+from json import load #per carregar el fitxer json
 
 #Variables ###################################################
 
