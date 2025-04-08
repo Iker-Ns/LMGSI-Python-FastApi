@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "nom": "John",
+        "cognom": "Doe",
+        "data": {
+            "dia": 15,
+            "mes": 6,
+            "any": 1995
+        },
+        "email": "john.doe@example.com",
+        "feina": true,
+        "curs": "Mathematics"
+    },
+    {
+        "id": 2,
+        "nom": "Jane",
+        "cognom": "Smith",
+        "data": {
+            "dia": 22,
+            "mes": 11,
+            "any": 1998
+        },
+        "email": "jane.smith@example.com",
+        "feina": false,
+        "curs": "Physics"
+    },
+    {
+        "id": 3,
+        "nom": "Alice",
+        "cognom": "Johnson",
+        "data": {
+            "dia": 3,
+            "mes": 2,
+            "any": 2000
+        },
+        "email": "alice.johnson@example.com",
+        "feina": true,
+        "curs": "Chemistry"
+    },
+    {
+        "id": 4,
+        "nom": "Bob",
+        "cognom": "Brown",
+        "data": {
+            "dia": 18,
+            "mes": 9,
+            "any": 1997
+        },
+        "email": "bob.brown@example.com",
+        "feina": false,
+        "curs": "Biology"
+    },
+    {
+        "id": 5,
+        "nom": "Charlie",
+        "cognom": "Davis",
+        "data": {
+            "dia": 25,
+            "mes": 12,
+            "any": 1996
+        },
+        "email": "charlie.davis@example.com",
+        "feina": true,
+        "curs": "Computer Science"
+    }
+]
