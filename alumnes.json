@@ -8,60 +8,60 @@
             "mes": 6,
             "any": 1995
         },
-        "email": "john.doe@example.com",
+        "email": "johndoe@gmail.com",
         "feina": true,
-        "curs": "Mathematics"
+        "curs": "Matematicas"
     },
     {
         "id": 2,
-        "nom": "Jane",
-        "cognom": "Smith",
+        "nom": "Pepe",
+        "cognom": "Viyuela",
         "data": {
             "dia": 22,
             "mes": 11,
             "any": 1998
         },
-        "email": "jane.smith@example.com",
+        "email": "pepeviyuela@gmail.com",
         "feina": false,
-        "curs": "Physics"
+        "curs": "Literatura"
     },
     {
         "id": 3,
-        "nom": "Alice",
+        "nom": "Juan",
         "cognom": "Johnson",
         "data": {
             "dia": 3,
             "mes": 2,
             "any": 2000
         },
-        "email": "alice.johnson@example.com",
+        "email": "alicejohnson@gmail.com",
         "feina": true,
-        "curs": "Chemistry"
+        "curs": "Fisica"
     },
     {
         "id": 4,
-        "nom": "Bob",
-        "cognom": "Brown",
+        "nom": "Ryan",
+        "cognom": "Gosling",
         "data": {
             "dia": 18,
             "mes": 9,
             "any": 1997
         },
-        "email": "bob.brown@example.com",
+        "email": "ryangosling@gmail.com",
         "feina": false,
-        "curs": "Biology"
+        "curs": "Biologia"
     },
     {
         "id": 5,
-        "nom": "Charlie",
-        "cognom": "Davis",
+        "nom": "David",
+        "cognom": "Navarro",
         "data": {
             "dia": 25,
             "mes": 12,
             "any": 1996
         },
-        "email": "charlie.davis@example.com",
+        "email": "davidnavarro@gmail.com",
         "feina": true,
-        "curs": "Computer Science"
+        "curs": "Ingenieria informatica"
     }
 ]
