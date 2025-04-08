@@ -20,7 +20,7 @@ def get_root():
 #Funció per obtenir la cuntitat d'alumnes de la llista d'alumnes
 @app.get("/alumnes", response_model=int)
 def get_alumnes():
-    return len(alumnes)
+    return {"result": len(alumnes)}
 
 #Funció per obtenir un alumne de la llista d'alumnes per id
 @app.get("/id/numero", response_class=dict)
