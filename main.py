@@ -12,7 +12,6 @@ with open("alumnes.json", "r") as f:
 # Definim les rutes de l'API
 
 #Si es "/", es mostra "Institut TIC de Barcelona"
-@app.get("/benvinguda")
 @app.get("/")
 def get_root():
     return "Institut TIC de Barcelona"
