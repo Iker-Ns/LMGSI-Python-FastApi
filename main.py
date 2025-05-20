@@ -19,7 +19,6 @@ def get_root():
 #Funció per obtenir la cuntitat d'alumnes de la llista d'alumnes
 @app.get("/alumnes", response_model=dict)
 def get_alumnes():
-    print(alumnes)
     return {"result": len(alumnes)}
 
 #Funció per obtenir un alumne de la llista d'alumnes per id
