@@ -1,6 +1,6 @@
 ### Imports ################################################## 
 import os   #per neteja la pantalla
-from json import load #per carregar el fitxer json
+from json import load, dumps #per carregar el fitxer json
 
 #Variables ###################################################
 
@@ -207,7 +207,7 @@ while True:
 
             # Guardem el fitxer
             with open(nom_fitxer, "w") as f:
-                f.write(alumnes)
+                f.write(dumps(alumnes))
             
             input()
 
